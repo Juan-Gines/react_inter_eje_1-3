@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Curso react intermedio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Curso de Open Bootcamp react intermedio
 
-## Available Scripts
+## Ejercicios sesión 1-3
 
-In the project directory, you can run:
+Primer reto que engloba las 3 primeras sesiones.
 
-### `npm start`
+### Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para este primer reto de programación en React vamos a poner en practica lo aprendido hasta ahora para crear dos componentes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cada uno de estos componentes tendrá sus propias características.
 
-### `npm test`
+Componente A: Este componente va a tener disponer un Contacto(crea una clase para ello), que va a contar con las siguientes características:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Nombre: que será un String.
 
-### `npm run build`
+- Apellido: también un String.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Email: de nuevo un String.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Conectado: será un booleano que nos indicará si la persona está conectada o no.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Componente B: Por otro lado, tenemos el componente B que va a recibir por props un contacto y va a poder cambiar su estado de conectado a desconectado y viceversa.
 
-### `npm run eject`
+Si el contacto está conectado, se debe mostrar: Contacto En Línea
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si el contacto no está conectado, se debe mostrar: Contacto No Disponible
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Renderizado de componentes en la solución:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- El Componente A debe ser renderizado dentro del componenet App.js del proyecto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- El Componente B debe ser renderizado desde el componte A y recibir los props adecuadamente
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Recordatorio: Haz uso de Proptypes adecuadamente
