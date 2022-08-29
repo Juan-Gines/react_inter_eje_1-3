@@ -20,7 +20,7 @@ Componente A: Este componente va a tener disponer un Contacto(crea una clase par
 
 - Email: de nuevo un String.
 
-Conectado: será un booleano que nos indicará si la persona está conectada o no.
+- Conectado: será un booleano que nos indicará si la persona está conectada o no.
 
 Componente B: Por otro lado, tenemos el componente B que va a recibir por props un contacto y va a poder cambiar su estado de conectado a desconectado y viceversa.
 
@@ -35,3 +35,4 @@ Renderizado de componentes en la solución:
 - El Componente B debe ser renderizado desde el componte A y recibir los props adecuadamente
 
 Recordatorio: Haz uso de Proptypes adecuadamente
+
